@@ -1,4 +1,5 @@
 <?php include "includes/header.inc.php" ?>
+<?php include "includes/db.inc.php" ?>
 
     <!-- Navigation -->
    <?php include "includes/navigation.inc.php" ?>
