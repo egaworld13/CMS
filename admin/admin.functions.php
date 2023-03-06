@@ -1,4 +1,11 @@
 <?php
+function comfirmQuery($result) {
+    global $connection;
+  if (!$result){
+    die(" QUERRY FAILED" . mysqli_error($connection));
+ }
+}
+
 function insertCategories(){
   global $connection;
   if(isset($_POST['submit'])){

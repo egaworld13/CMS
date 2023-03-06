@@ -29,7 +29,7 @@
                      
                       <?php
                       //* UPDATE AND INCLUDE QUERY
-                        if(isset($_GET['edit'])){
+                        if (isset($_GET['edit'])) {
                           $cat_id = $_GET['edit'];
                           include "includes/admin.update.categories.inc.php";
                         } ?>
