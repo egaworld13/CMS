@@ -25,7 +25,7 @@ $query = "INSERT INTO posts(post_category_id, post_title, post_author, post_date
 
  $create_post_query = mysqli_query($connection, $query);
 
-comfirmQuery($create_post_query);
+confirmQuery($create_post_query);
 
 }
 ?>
